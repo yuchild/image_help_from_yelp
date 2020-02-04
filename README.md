@@ -33,19 +33,19 @@ Stemming and Lemmatization filtering uses different heuristics to limit word len
 
 *Top 50 Stemming Words:*
 <br>
-![Top 50 Stemmed Words](top_50_stemming_words.png | width=800 | height=700)
+![Top 50 Stemmed Words](./set-top_50_stemming_words.png =800x650)
 <br>
 
 *Stemmed Word Cloud:*
 <br>
-![Stemming Word Cloud](yelp_stem_wc.png | width=500 | height=800)
+![Stemming Word Cloud](./set-yelp_stem_wc.png =500x800)
 <br>
 
 *Lemmatizing (Uses a dictionary):*
 <br>
-![Top 50 Lemmatized Words](top_50_lemmatized_words.png | width=800 | height=700)
+![Top 50 Lemmatized Words](./set-top_50_lemmatized_words.png =800x640)
 
 *Lemmatized Word Cloud:*
 <br>
-![Stemming Word Cloud](yelp_lem_wc.png | width=500 | heigh=800)
+![Stemming Word Cloud](./set-yelp_lem_wc.png =500x800)
 <br>
