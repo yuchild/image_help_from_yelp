@@ -17,3 +17,15 @@ The dataset has the following files and features:
 | tip.json | 245MB | 1223094 | text, date, compliment_count, business_id, user_id |
 | photo.json | 26MB | 200000 | photo_id, business_id, caption, label |
 | 200K Photos | 7.2GB | 200000 | photos in .png file format |
+
+*The lay of the land*
+
+Using Stemming and Lemmatization filtering the following top 50 words appeared:
+
+Stemming Words (Chops the ends of words to get to he root word):
+<br>
+![Top 50 Stemmed Words](top_50_stemming_words.png)
+
+Lemmatizing (Uses a dictionary):
+<br>
+![Top 50 Lemmatized Words](top_50_lemmatized_words.png)
