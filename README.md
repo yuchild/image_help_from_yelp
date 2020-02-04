@@ -18,25 +18,34 @@ The dataset has the following files and features:
 | photo.json | 26MB | 200000 | photo_id, business_id, caption, label |
 | 200K Photos | 7.2GB | 200000 | photos in .png file format |
 
+
+## A Deep Dive into Reviews
+***
+The reviews.json file contains 6.6 million entries. To limit the excessive computational power required for this dataset, I used only 3% of the data to cut computational time.
+
+**Word Lengths EDA**
+
+
+
 **The lay of the land**
 
-Using Stemming and Lemmatization filtering the following top 50 words appeared:
+Stemming and Lemmatization filtering uses different heuristics to limit word lengths. Stemming chops the ends off to get at the root word. Lemmatization employs dictionaries to find root meaning:
 
-Stemming Words (Chops the ends of words to get to the root word):
+*Top 50 Stemming Words:*
 <br>
-![Top 50 Stemmed Words](top_50_stemming_words.png = 500X400)
-<br>
-
-Stemmed Word Cloud:
-<br>
-![Stemming Word Cloud](yelp_stem_wc.png = 500X500)
+![Top 50 Stemmed Words](top_50_stemming_words.png | width=800 | height=700)
 <br>
 
-Lemmatizing (Uses a dictionary):
+*Stemmed Word Cloud:*
 <br>
-![Top 50 Lemmatized Words](top_50_lemmatized_words.png = 500X400)
+![Stemming Word Cloud](yelp_stem_wc.png | width=500 | height=800)
+<br>
 
-Lemmatized Word Cloud:
+*Lemmatizing (Uses a dictionary):*
 <br>
-![Stemming Word Cloud](yelp_lem_wc.png = 500X500)
+![Top 50 Lemmatized Words](top_50_lemmatized_words.png | width=800 | height=700)
+
+*Lemmatized Word Cloud:*
+<br>
+![Stemming Word Cloud](yelp_lem_wc.png | width=500 | heigh=800)
 <br>
