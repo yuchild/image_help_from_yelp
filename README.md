@@ -24,19 +24,19 @@ Using Stemming and Lemmatization filtering the following top 50 words appeared:
 
 Stemming Words (Chops the ends of words to get to the root word):
 <br>
-![Top 50 Stemmed Words](top_50_stemming_words.png)
+![Top 50 Stemmed Words](top_50_stemming_words.png = 500X400)
 <br>
 
 Stemmed Word Cloud:
 <br>
-![Stemming Word Cloud](yelp_stem_wc.png)
+![Stemming Word Cloud](yelp_stem_wc.png = 500X500)
 <br>
 
 Lemmatizing (Uses a dictionary):
 <br>
-![Top 50 Lemmatized Words](top_50_lemmatized_words.png)
+![Top 50 Lemmatized Words](top_50_lemmatized_words.png = 500X400)
 
 Lemmatized Word Cloud:
 <br>
-![Stemming Word Cloud](yelp_lem_wc.png)
+![Stemming Word Cloud](yelp_lem_wc.png = 500X500)
 <br>
