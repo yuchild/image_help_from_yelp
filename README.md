@@ -35,6 +35,9 @@ Stemming and Lemmatization filtering uses different heuristics to limit word len
 | ----- | ----- |
 | <img src='top_50_lemmatized_words.png' width='450' height='400'> | <img src='yelp_lem_wc.png' width='300' height='400'> |
 
+| Rating Frequency |
+| :-----: |
+| <img src='rating_freq.png' width='450' height='350'> |
 
 
 ## Models and Performances
