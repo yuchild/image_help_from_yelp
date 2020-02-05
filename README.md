@@ -33,15 +33,9 @@ Stemming and Lemmatization filtering uses different heuristics to limit word len
 
 | *Top 50 Stemming Words:* | *Stemmed Word Cloud:* |
 | ----- | ----- |
-| <img src='top_50_stemming_words.png' width='200' height='180'> | <img src='yelp_stem_wc.png' width='200' height='200'> |
+| <img src='top_50_stemming_words.png' width='300' height='250'> | <img src='yelp_stem_wc.png' width='300' height='350'> |
 
 
-*Lemmatizing (Uses a dictionary):*
-<br>
-<img src='top_50_lemmatized_words.png' width='800' height='650'>
-<br>
-
-*Lemmatized Word Cloud:*
-<br>
-<img src='yelp_lem_wc.png' width='500' height='800'>
-<br>
+| *Top 50 Lemmatized Words:* | *Lemaatized Word Cloud:* |
+| ----- | ----- |
+| <img src='top_50_lemmatized_words.png' width='300' height='250'> | <img src='yelp_lem_wc.png' width='300' height='350'> |
