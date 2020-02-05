@@ -50,7 +50,7 @@ All produced around Mid 80% accuracy with the models better at classifying 1 sta
 
 | * Stemmed Navie Bayes ROC Curve: * | * Stemmed Navive Bayes Precision Recall Curve: * |
 | ----- | ----- |
-| <img src='NB_roc_curve.png' width='450' height='400'> | <img src='NB_pr_curve_stem.png' width='450' height='400'> |
+| <img src='NB_roc_curve.png' width='450' height='450'> | <img src='NB_pr_curve_stem.png' width='450' height='450'> |
 | * Lemmatized Navie Bayes ROC Curve: * | * Lemmatized Navive Bayes Precision Recall Curve: * |
 | <img src='NB_roc_curve_lem.png' width='450' height='450'> | <img src='NB_pr_curve_lem.png' width='450' height='450'> |
 
