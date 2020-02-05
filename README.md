@@ -32,6 +32,7 @@ The reviews.json file contains 6.6 million entries. To limit the excessive compu
 Stemming and Lemmatization filtering uses different heuristics to limit word lengths. Stemming chops the ends off to get at the root word. Lemmatization employs dictionaries to find root meaning:
 
 | *Top 50 Stemming Words:* | *Stemmed Word Cloud:* |
+| ***** | ***** |
 | <img src='top_50_stemming_words.png' width='200' height='180'> | <img src='yelp_stem_wc.png' width='200' height='200'> |
 
 
