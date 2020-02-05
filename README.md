@@ -51,10 +51,10 @@ To predict review text and stars given, the following four classifiers are used:
 
 All produced around Mid 80% accuracy with the models better at classifying 1 star and 5 star ratings. Below are the model performances:
 
-| Stemmed Navie Bayes ROC Curve | Stemmed Navive Bayes Precision Recall Curve |
+| Stemmed Naive Bayes ROC Curve | Stemmed Naive Bayes Precision Recall Curve |
 | :-----: | :-----: |
 | <img src='NB_roc_curve.png' width='450' height='450'> | <img src='NB_pr_curve_stem.png' width='450' height='450'> |
-| Lemmatized Navie Bayes ROC Curve | Lemmatized Navive Bayes Precision Recall Curve |
+| Lemmatized Naive Bayes ROC Curve | Lemmatized Naive Bayes Precision Recall Curve |
 | <img src='NB_roc_curve_lem.png' width='450' height='450'> | <img src='NB_pr_curve_lem.png' width='450' height='450'> |
 | Stemmed Stochastic GD ROC Curve | Stemmed Stochastic GD Precision Recall Curve |
 | <img src='SGD_roc_curve.png' width='450' height='450'> | <img src='SGD_pr_curve_stem.png' width='450' height='450'> |
