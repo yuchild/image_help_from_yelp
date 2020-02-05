@@ -21,13 +21,9 @@ The dataset has the following files and features:
 
 ## A Deep Dive into Reviews
 ***
-The reviews.json file contains 6.6 million entries. To limit the excessive computational power required for this dataset, I used only 3% of the data to cut computational time.
+The reviews.json file contains 6.6 million entries. To limit the excessive computational power required for this dataset, I used only 1.5% of the data to cut computational time.
 
-**Word Lengths EDA**
-
-
-
-**The lay of the land**
+**Word Lengths EDA: The lay of the land:**
 
 Stemming and Lemmatization filtering uses different heuristics to limit word lengths. Stemming chops the ends off to get at the root word. Lemmatization employs dictionaries to find root meaning:
 
@@ -39,3 +35,20 @@ Stemming and Lemmatization filtering uses different heuristics to limit word len
 | *Top 50 Lemmatized Words:* | *Lemaatized Word Cloud:* |
 | ----- | ----- |
 | <img src='top_50_lemmatized_words.png' width='450' height='400'> | <img src='yelp_lem_wc.png' width='300' height='400'> |
+
+
+
+## Models and Performances
+***
+To predict review text and stars given, the following four classifiers are used:
+
+- Naive Bayes
+- Stochastic Gradient Descent
+- Ada Boost
+- Multi-Layer Perception
+
+All produced around Mid 80% accuracy with the models better at classifying 1 star and 5 star ratings. Below are the model performances:
+
+| * Stemmed Navie Bayes ROC Curve:* | *Stemmed Navive Bayes Precision Recall Curve:* |
+| ----- | ----- |
+| <img src='NB_roc_curve.png' width='350' height='350'> | <img src='NB_pr_curve_stem.png' width='350' height='450'> |
