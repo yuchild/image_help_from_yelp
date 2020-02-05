@@ -48,26 +48,20 @@ To predict review text and stars given, the following four classifiers are used:
 
 All produced around Mid 80% accuracy with the models better at classifying 1 star and 5 star ratings. Below are the model performances:
 
-| * Stemmed Navie Bayes ROC Curve: * | * Stemmed Navive Bayes Precision Recall Curve: * |
-| ----- | ----- |
+| Stemmed Navie Bayes ROC Curve | Stemmed Navive Bayes Precision Recall Curve |
+| :-----: | :-----: |
 | <img src='NB_roc_curve.png' width='450' height='450'> | <img src='NB_pr_curve_stem.png' width='450' height='450'> |
-| * Lemmatized Navie Bayes ROC Curve: * | * Lemmatized Navive Bayes Precision Recall Curve: * |
+| Lemmatized Navie Bayes ROC Curve | Lemmatized Navive Bayes Precision Recall Curve |
 | <img src='NB_roc_curve_lem.png' width='450' height='450'> | <img src='NB_pr_curve_lem.png' width='450' height='450'> |
-
-| * Stemmed Stochastic Gradient Descent ROC Curve: * | * Stemmed Stochastic Gradient Descent Precision Recall Curve: * |
-| ----- | ----- |
+| Stemmed Stochastic GD ROC Curve | Stemmed Stochastic GD Precision Recall Curve |
 | <img src='SGD_roc_curve.png' width='450' height='450'> | <img src='SGD_pr_curve_stem.png' width='450' height='450'> |
-| * Lemmatized Stochastic Gradient Descent ROC Curve: * | * Lemmatized Stochastic Gradient Descent Precision Recall Curve: * |
+| Lemmatized Stochastic GD ROC Curve | Lemmatized Stochastic GD Precision Recall Curve |
 | <img src='SGD_roc_curve_lem.png' width='450' height='450'> | <img src='SGD_pr_curve_lem.png' width='450' height='450'> |
-
-| * Stemmed Ada Boost ROC Curve: * | * Stemmed Ada Boost Precision Recall Curve: * |
-| ----- | ----- |
+| Stemmed Ada Boost ROC Curve | Stemmed Ada Boost Precision Recall Curve |
 | <img src='AdaBoost_roc_curve.png' width='450' height='450'> | <img src='AdaBoost_pr_curve_stem.png' width='450' height='450'> |
-| * Lemmatized Ada Boost ROC Curve: * | * Lemmatized Ada Boost Precision Recall Curve: * |
+| Lemmatized Ada Boost ROC Curve | Lemmatized Ada Boost Precision Recall Curve |
 | <img src='AdaBoost_roc_curve_lem.png' width='450' height='450'> | <img src='AdaBoost_pr_curve_lem.png' width='450' height='450'> |
-
-| * Stemmed MLP ROC Curve: * | * Stemmed MLP Precision Recall Curve: * |
-| ----- | ----- |
+| Stemmed MLP ROC Curve | Stemmed MLP Precision Recall Curve |
 | <img src='MLP_roc_curve.png' width='450' height='450'> | <img src='MLP_pr_curve_stem.png' width='450' height='450'> |
-| * Lemmatized MLP ROC Curve: * | * Lemmatized MLP Precision Recall Curve: * |
+| Lemmatized MLP ROC Curve | Lemmatized MLP Precision Recall Curve |
 | <img src='MLP_roc_curve_lem.png' width='450' height='450'> | <img src='MLP_pr_curve_lem.png' width='450' height='450'> |
