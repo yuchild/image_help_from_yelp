@@ -51,4 +51,12 @@ All produced around Mid 80% accuracy with the models better at classifying 1 sta
 
 | * Stemmed Navie Bayes ROC Curve:* | *Stemmed Navive Bayes Precision Recall Curve:* |
 | ----- | ----- |
-| <img src='NB_roc_curve.png' width='350' height='350'> | <img src='NB_pr_curve_stem.png' width='350' height='450'> |
+| <img src='NB_roc_curve.png' width='400' height='400'> | <img src='NB_pr_curve_stem.png' width='400' height='400'> |
+| * Lemmatized Navie Bayes ROC Curve:* | *Lemmatized Navive Bayes Precision Recall Curve:* |
+| <img src='NB_roc_curve_lem.png' width='400' height='400'> | <img src='NB_pr_curve_lem.png' width='400' height='400'> |
+| ----- | ----- |
+| * Stemmed Stochastic Gradient Descent ROC Curve:* | *Stemmed Stochastic Gradient Descent Precision Recall Curve:* |
+| <img src='SGD_roc_curve.png' width='400' height='400'> | <img src='SGD_pr_curve_stem.png' width='400' height='400'> |
+| * Lemmatized Stochastic Gradient Descent ROC Curve:* | *Lemmatized Stochastic Gradient Descent Precision Recall Curve:* |
+| <img src='SGD_roc_curve_lem.png' width='400' height='400'> | <img src='SGD_pr_curve_lem.png' width='400' height='400'> |
+| ----- | ----- |
