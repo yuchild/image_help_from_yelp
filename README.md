@@ -29,15 +29,15 @@ Stemming and Lemmatization filtering uses different heuristics to limit word len
 
 | *Top 50 Stemming Words:* | *Stemmed Word Cloud:* |
 | ----- | ----- |
-| <img src='top_50_stemming_words.png' width='450' height='400'> | <img src='yelp_stem_wc.png' width='300' height='400'> |
+| <img src='images/top_50_stemming_words.png' width='450' height='400'> | <img src='images/yelp_stem_wc.png' width='300' height='400'> |
 
 | *Top 50 Lemmatized Words:* | *Lemaatized Word Cloud:* |
 | ----- | ----- |
-| <img src='top_50_lemmatized_words.png' width='450' height='400'> | <img src='yelp_lem_wc.png' width='300' height='400'> |
+| <img src='images/top_50_lemmatized_words.png' width='450' height='400'> | <img src='images/yelp_lem_wc.png' width='300' height='400'> |
 
 | Rating Frequency |
 | :-----: |
-| <img src='rating_freq.png' width='450' height='350'> |
+| <img src='images/rating_freq.png' width='450' height='350'> |
 
 
 ## Models and Performances
@@ -53,18 +53,18 @@ All produced around Mid 80% accuracy with the models better at classifying 1 sta
 
 | Stemmed Naive Bayes ROC Curve | Stemmed Naive Bayes Precision Recall Curve |
 | :-----: | :-----: |
-| <img src='NB_roc_curve.png' width='450' height='450'> | <img src='NB_pr_curve_stem.png' width='450' height='450'> |
+| <img src='images/NB_roc_curve.png' width='450' height='450'> | <img src='images/NB_pr_curve_stem.png' width='450' height='450'> |
 | Lemmatized Naive Bayes ROC Curve | Lemmatized Naive Bayes Precision Recall Curve |
-| <img src='NB_roc_curve_lem.png' width='450' height='450'> | <img src='NB_pr_curve_lem.png' width='450' height='450'> |
+| <img src='images/NB_roc_curve_lem.png' width='450' height='450'> | <img src='images/NB_pr_curve_lem.png' width='450' height='450'> |
 | Stemmed Stochastic GD ROC Curve | Stemmed Stochastic GD Precision Recall Curve |
-| <img src='SGD_roc_curve.png' width='450' height='450'> | <img src='SGD_pr_curve_stem.png' width='450' height='450'> |
+| <img src='images/SGD_roc_curve.png' width='450' height='450'> | <img src='images/SGD_pr_curve_stem.png' width='450' height='450'> |
 | Lemmatized Stochastic GD ROC Curve | Lemmatized Stochastic GD Precision Recall Curve |
-| <img src='SGD_roc_curve_lem.png' width='450' height='450'> | <img src='SGD_pr_curve_lem.png' width='450' height='450'> |
+| <img src='images/SGD_roc_curve_lem.png' width='450' height='450'> | <img src='images/SGD_pr_curve_lem.png' width='450' height='450'> |
 | Stemmed Ada Boost ROC Curve | Stemmed Ada Boost Precision Recall Curve |
-| <img src='AdaBoost_roc_curve.png' width='450' height='450'> | <img src='AdaBoost_pr_curve_stem.png' width='450' height='450'> |
+| <img src='images/AdaBoost_roc_curve.png' width='450' height='450'> | <img src='images/AdaBoost_pr_curve_stem.png' width='450' height='450'> |
 | Lemmatized Ada Boost ROC Curve | Lemmatized Ada Boost Precision Recall Curve |
-| <img src='AdaBoost_roc_curve_lem.png' width='450' height='450'> | <img src='AdaBoost_pr_curve_lem.png' width='450' height='450'> |
+| <img src='images/AdaBoost_roc_curve_lem.png' width='450' height='450'> | <img src='images/AdaBoost_pr_curve_lem.png' width='450' height='450'> |
 | Stemmed MLP ROC Curve | Stemmed MLP Precision Recall Curve |
-| <img src='MLP_roc_curve.png' width='450' height='450'> | <img src='MLP_pr_curve_stem.png' width='450' height='450'> |
+| <img src='images/MLP_roc_curve.png' width='450' height='450'> | <img src='images/MLP_pr_curve_stem.png' width='450' height='450'> |
 | Lemmatized MLP ROC Curve | Lemmatized MLP Precision Recall Curve |
-| <img src='MLP_roc_curve_lem.png' width='450' height='450'> | <img src='MLP_pr_curve_lem.png' width='450' height='450'> |
+| <img src='images/MLP_roc_curve_lem.png' width='450' height='450'> | <img src='images/MLP_pr_curve_lem.png' width='450' height='450'> |
