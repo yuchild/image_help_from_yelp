@@ -1,5 +1,5 @@
 # Image Help From Yelp
-***
+
 **Image Processing for Business Insights**
 ***
 
@@ -19,8 +19,9 @@ The dataset has the following files and features:
 | 200K Photos | 7.2GB | 200000 | photos in .png file format |
 
 
+
 ## A Deep Dive into Reviews
-***
+
 The reviews.json file contains 6.6 million entries. To limit the excessive computational power required for this dataset, I used only 1.5% of the data to cut computational time.
 
 **Word Lengths EDA: The lay of the land:**
@@ -40,8 +41,9 @@ Stemming and Lemmatization filtering uses different heuristics to limit word len
 | <img src='images/rating_freq.png' width='450' height='350'> |
 
 
+
 ## Models and Performances
-***
+
 To predict review text and stars given, the following four classifiers are used:
 
 - Naive Bayes
