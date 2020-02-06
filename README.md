@@ -24,9 +24,8 @@ The dataset has the following files and features:
 
 Of the 200K images in the yelp dataset, 3023 images were used from each categories to create a balanced training set for the models. Below are some EDA for images, categories, and restaurant ratings
 
-| | |
-| :-----: | :-----: |
 | Photo Count by Categories | Photo Count by State |
+| :-----: | :-----: |
 | <img src='images/photo_cat_ctn.png' width='400' height='350'> | <img src='images/photo_ctn_by_state.png' width='400' height='350'> |
 <br>
 
