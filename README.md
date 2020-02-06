@@ -16,7 +16,7 @@ The dataset has the following files and features:
 | checkin.json | 409MB | 161950 | business_id, date |
 | tip.json | 245MB | 1223094 | text, date, compliment_count, business_id, user_id |
 | photo.json | 26MB | 200000 | photo_id, business_id, caption, label |
-| 200K Photos | 7.2GB | 200000 | photos in .png file format |
+| 200K Photos | 7.2GB | 200000 | photos in .jpg file format |
 <br>
 
 
