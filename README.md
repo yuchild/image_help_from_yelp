@@ -17,8 +17,16 @@ The dataset has the following files and features:
 | tip.json | 245MB | 1223094 | text, date, compliment_count, business_id, user_id |
 | photo.json | 26MB | 200000 | photo_id, business_id, caption, label |
 | 200K Photos | 7.2GB | 200000 | photos in .png file format |
+<br>
 
 
+## Image Classification
+
+Of the 200K images in the yelp dataset, 3026
+
+| Photo Count by Categories |
+| :-----: |
+| <img src='images/photo_cat_ctn.png' width='400' height='350'> |
 
 ## A Deep Dive into Reviews
 
@@ -39,12 +47,12 @@ Stemming and Lemmatization filtering uses different heuristics to limit word len
 | Rating Frequency |
 | :-----: |
 | <img src='images/rating_freq.png' width='450' height='350'> |
+<br>
 
 
+## NLP Models and Performances
 
-## Models and Performances
-
-To predict review text and stars given, the following four classifiers are used:
+To predict stars given based on text reviews, the following four classifiers are used:
 
 - Naive Bayes
 - Stochastic Gradient Descent
@@ -70,3 +78,7 @@ All produced around Mid 80% accuracy with the models better at classifying 1 sta
 | <img src='images/MLP_roc_curve.png' width='450' height='450'> | <img src='images/MLP_pr_curve_stem.png' width='450' height='450'> |
 | Lemmatized MLP ROC Curve | Lemmatized MLP Precision Recall Curve |
 | <img src='images/MLP_roc_curve_lem.png' width='450' height='450'> | <img src='images/MLP_pr_curve_lem.png' width='450' height='450'> |
+<br>
+
+
+## Business Case: From Images to ratings
